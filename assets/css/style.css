@@ -1,0 +1,51 @@
+.container div{
+    margin: 10px;
+    padding: 5px;
+    font-family: sans-serif;
+    align-content: center;
+    background: lightgray;
+
+}
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+.output-container div{
+    width:  300px;
+    font-size: 24px;
+    clear: both;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.output-container p{
+    font-size:  18 px;
+    padding: 5px;
+
+}
+
+.button-container button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background: grey;
+    text-align: center;
+
+}
+
+/* .score-container div{
+    font-size: 18px;
+    padding: 6px;
+    text-align: center; */
+
+/* } */
+
+.score-container button{
+    width: 200px;
+    height: 40px;
+    border: 20px;
+    background: darkgray;
+    text-align: center;
+}
