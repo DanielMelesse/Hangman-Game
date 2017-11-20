@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Hangman GAME</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<script type="text/javascript" src="asset/javascript/jquery.js"></script>
+	<script type="text/javascript" src="asset/javascript/game.js"></script>
+</head>
+<body onload="reset();">
+    <div class="container">
+        <div class="output-container">
+            <div> AI Score: <span id="computerScore"></span></div>
+            <div> Your Score: <span id="userScore"></span> </div>
+            <div> Word to guess : <span id="wordToGuess"></span> </div>
+            <p id="msg"></p>
+            <p id="result"></p>
+        </div>
+       
+        <div class="score-container">
+            <div> User Guessed : <span id="userGuessed"></span></div>
+            <div>Wrong Guessed : <span id="wrongLetter"></span></div>
+            <div> Guess remaing : <span id="guessRemaing"></span></div>
+            <button id="reset" onclick="reset();">Reset</button>
+        </div>
+    </div>
+
+</body>
+</html>
